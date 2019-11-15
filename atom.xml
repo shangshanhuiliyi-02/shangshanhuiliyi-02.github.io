@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-14T16:19:37.325Z</updated>
+  <updated>2019-11-15T17:51:07.849Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My blog trip</title>
+    <link href="http://yoursite.com/2019/11/15/My%20blog%20trip/"/>
+    <id>http://yoursite.com/2019/11/15/My%20blog%20trip/</id>
+    <published>2019-11-15T15:23:17.214Z</published>
+    <updated>2019-11-15T17:51:07.849Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1-10"><a href="#1-10" class="headerlink" title="1%~10%"></a>1%~10%</h3><p>一个小前端攻城狮,写着Html、Css、Js，老师开始教他node、ajax、vue实现前端与后台的交互 ，写本地blog。<br>他突发奇想，既然能写本地blog，为何不写一个个人blog呢 ？<br>说干就干 ！那么问题来 ！该怎么写个人blog呢？百度! 对， 百度！！<br>百度搜索 …“如何搭建个人博客” …嗯 。嗯 ！嗯 ？（挑选教程中）<br>“五分钟搭建个人博客”就决定是你了！</p><h3 id="10-20"><a href="#10-20" class="headerlink" title="10%~20%"></a>10%~20%</h3><p>先是注册Github账号<br>—a few moments later—<br>输入邮箱、设置密码、验证邮箱，注册完成。<br>然后是创建仓库，仓库名必须和用户名比配。<br>第一步完成</p><h3 id="20-30"><a href="#20-30" class="headerlink" title="20%~30%"></a>20%~30%</h3><p>接下来是安装工具 Node 、Git 、Hexo 。<br>wait ，Node 我知道 git、 hexo是什么？（黑人问号.jpg）</p><a id="more"></a><p>—a few moments later—（百度百科中）<br>恍然大悟 ，了解了 ，老老实实安装<br>测试是否安装成功<br>打开cmd 输入 node -v 、git -v 、hexo -v 、<br>嗯[摸下巴]好像有点不对 ，没有安装成功。<br>百度一下 [ 吓！]  为什么还要新建和更改环境变量 ？<br>行吧 [无奈]  还好是图文，按照步骤做吧。<br>[长叹一口气]终于解决了</p><h3 id="30-50"><a href="#30-50" class="headerlink" title="30%~50%"></a>30%~50%</h3><p>然后设置本地用户信息 、 主题安装 、 修改配置文件。<br>照着葫芦画瓢 ， 也算是完成了。<br>然后是写文章 ， 新建一个.md文件（又卡住了）无法新建.md文件。<br>老规矩 —百度 —“windows10如何新建.md文件”<br>—a few moments later—<br>进入注册表编辑器–&gt;新建项–&gt;新建字符串–&gt;OK<br>自由发挥 、天马行空 、随心所欲，写了第一个bolg（实则是按着教程copy的）<br>开始测试 $ hexo s 启动服务器 ，在浏览器输入<a href="https://localhost:4000" target="_blank" rel="noopener">https://localhost:4000</a> 访问<br>成了 [暗松一口气 还以为会接着出错呢]<br>安装自动部署发布工具 （傻瓜式操作）</p><h3 id="50-70"><a href="#50-70" class="headerlink" title="50%~70%"></a>50%~70%</h3><p>接下来就是发布了生成静态网页文件发布至github pages 中<br>$ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<br>上面说是第一次操作终端会让输入Github 的邮箱和密码，<br>可是为什么没让我输入而且还有一串红色代码 ，不出意外又出错了。<br>老办法–百度搜索–没有找到 ！这怎么办呢 ？对了 !还有b站!<br>对照着视频  ,一帧一帧的检查!<br>经历千辛万苦终于解决了终于把我的第一个博客发表出去了!</p><p>ps：每一段的百分比是来源于电影《超体》的灵感  至于为什么没有到100%是因为这只是开始好有很多要学习</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;1-10&quot;&gt;&lt;a href=&quot;#1-10&quot; class=&quot;headerlink&quot; title=&quot;1%~10%&quot;&gt;&lt;/a&gt;1%~10%&lt;/h3&gt;&lt;p&gt;一个小前端攻城狮,写着Html、Css、Js，老师开始教他node、ajax、vue实现前端与后台的交互 ，写本地blog。&lt;br&gt;他突发奇想，既然能写本地blog，为何不写一个个人blog呢 ？&lt;br&gt;说干就干 ！那么问题来 ！该怎么写个人blog呢？百度! 对， 百度！！&lt;br&gt;百度搜索 …“如何搭建个人博客” …嗯 。嗯 ！嗯 ？（挑选教程中）&lt;br&gt;“五分钟搭建个人博客”就决定是你了！&lt;/p&gt;
+&lt;h3 id=&quot;10-20&quot;&gt;&lt;a href=&quot;#10-20&quot; class=&quot;headerlink&quot; title=&quot;10%~20%&quot;&gt;&lt;/a&gt;10%~20%&lt;/h3&gt;&lt;p&gt;先是注册Github账号&lt;br&gt;—a few moments later—&lt;br&gt;输入邮箱、设置密码、验证邮箱，注册完成。&lt;br&gt;然后是创建仓库，仓库名必须和用户名比配。&lt;br&gt;第一步完成&lt;/p&gt;
+&lt;h3 id=&quot;20-30&quot;&gt;&lt;a href=&quot;#20-30&quot; class=&quot;headerlink&quot; title=&quot;20%~30%&quot;&gt;&lt;/a&gt;20%~30%&lt;/h3&gt;&lt;p&gt;接下来是安装工具 Node 、Git 、Hexo 。&lt;br&gt;wait ，Node 我知道 git、 hexo是什么？（黑人问号.jpg）&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>FirstNight</title>
