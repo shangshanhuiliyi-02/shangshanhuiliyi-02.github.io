@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-15T09:03:43.994Z</updated>
+  <updated>2019-11-15T09:49:59.213Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,18 +21,21 @@
     <link href="http://yoursite.com/2019/11/15/day/"/>
     <id>http://yoursite.com/2019/11/15/day/</id>
     <published>2019-11-15T09:02:37.446Z</published>
-    <updated>2019-11-15T09:03:43.994Z</updated>
+    <updated>2019-11-15T09:49:59.213Z</updated>
     
-    <content type="html"><![CDATA[<hr><h2 id="title-day"><a href="#title-day" class="headerlink" title=" title:day"></a> title:day</h2><blockquote><p>今天是2019年11月15号。</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<hr><p> title:day</p><hr><blockquote><p><font face="STCAIYUN">今天是2019年11月15号。</font></p></blockquote>]]></content>
     
     <summary type="html">
     
       
       
         &lt;hr&gt;
-&lt;h2 id=&quot;title-day&quot;&gt;&lt;a href=&quot;#title-day&quot; class=&quot;headerlink&quot; title=&quot; title:day&quot;&gt;&lt;/a&gt; title:day&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;今天是2019年11月15号。&lt;/p&gt;
-&lt;/
+&lt;p&gt; title:day&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;font face=&quot;STCAIYUN&quot;&gt;今天是2019年11月15号。&lt;/font&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
       
     
     </summary>
