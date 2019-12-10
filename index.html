@@ -54,6 +54,53 @@
       <div id="middlecontent" title class="global-width sidebar-right">
         <section id="main">
   
+    <article id="post-day3" class="article global-container article-type-post" itemscope itemprop="blogPost">
+  
+    <header class="article-header">
+      
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/12/05/day3/">day3</a>
+    </h1>
+  
+
+    </header>
+  
+  <div class="article-meta">
+    <a href="/2019/12/05/day3/" class="article-date">
+  <time datetime="2019-12-05T10:54:33.685Z" itemprop="datePublished">2019-12-05</time>
+</a>
+    
+    
+  </div>
+  
+
+  <div class="article-inner">
+    
+    <div class="article-content article-content-cloud" itemprop="articleBody">
+      
+        <h1 id="Vue-js-Day3"><a href="#Vue-js-Day3" class="headerlink" title="Vue.js - Day3"></a>Vue.js - Day3</h1><h2 id="定义Vue组件"><a href="#定义Vue组件" class="headerlink" title="定义Vue组件"></a>定义Vue组件</h2><p>什么是组件： 组件的出现，就是为了拆分Vue实例的代码量的，能够让我们以不同的组件，来划分不同的功能模块，将来我们需要什么样的功能，就可以去调用对应的组件即可；<br>组件化和模块化的不同：</p>
+<ul>
+<li>模块化： 是从代码逻辑的角度进行划分的；方便代码分层开发，保证每个功能模块的职能单一；</li>
+<li>组件化： 是从UI界面的角度进行划分的；前端的组件化，方便UI组件的重用；<h3 id="全局组件定义的三种方式"><a href="#全局组件定义的三种方式" class="headerlink" title="全局组件定义的三种方式"></a>全局组件定义的三种方式</h3><ol>
+<li>使用 Vue.extend 配合 Vue.component 方法：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">var login = Vue.extend(&#123;</span><br><span class="line">      template: &apos;&lt;h1&gt;登录&lt;/h1&gt;&apos;</span><br><span class="line">    &#125;);</span><br><span class="line">    Vue.component(&apos;login&apos;, login);</span><br></pre></td></tr></table></figure></li>
+<li>直接使用 Vue.component 方法：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Vue.component(&apos;register&apos;, &#123;</span><br><span class="line">      template: &apos;&lt;h1&gt;注册&lt;/h1&gt;&apos;</span><br><span class="line">    &#125;);</span><br></pre></td></tr></table></figure></li>
+<li>将模板字符串，定义到script标签种：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;script id=&quot;tmpl&quot; type=&quot;x-template&quot;&gt;</span><br><span class="line">      &lt;div&gt;&lt;a href=&quot;#&quot;&gt;登录&lt;/a&gt; | &lt;a href=&quot;#&quot;&gt;注册&lt;/a&gt;&lt;/div&gt;</span><br><span class="line">    &lt;/script&gt;</span><br></pre></td></tr></table></figure>
+同时，需要使用 Vue.component 来定义组件：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Vue.component(&apos;account&apos;, &#123;</span><br><span class="line">      template: &apos;#tmpl&apos;</span><br><span class="line">    &#125;);</span><br></pre></td></tr></table></figure>
+        
+          <p class="article-more-link">
+            <a href="/2019/12/05/day3/#more">阅读全文</a>
+          </p>
+        
+      
+    </div>
+    
+  </div>
+  
+  
+</article>
+
+  
     <article id="post-day2" class="article global-container article-type-post" itemscope itemprop="blogPost">
   
     <header class="article-header">
@@ -327,6 +374,10 @@
       <ul>
         
           <li>
+            <a href="/2019/12/05/day3/">day3</a>
+          </li>
+        
+          <li>
             <a href="/2019/12/01/day2/">day2</a>
           </li>
         
@@ -340,10 +391,6 @@
         
           <li>
             <a href="/2019/11/15/FirstNight/">FirstNight</a>
-          </li>
-        
-          <li>
-            <a href="/2019/11/14/hello-world/">Hello World</a>
           </li>
         
       </ul>
